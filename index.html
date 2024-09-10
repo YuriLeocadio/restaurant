@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/a290182793.js"></script>
+    <title>Sabor Brasileiro</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar-items">
+                    <li>
+                        <h2 class="name">
+                            Sabor Brasileiro
+                        </h2>
+                    </li>
+                    <li>
+                        <a href="#" class="links">Sobre Nós</a>
+                        <a href="#" class="links">Menu</a>
+                        <a href="#" class="links">Peça Online</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="about-section">
+                <div class="about-div">
+                    <h1>Restaurante Sabor Brasileiro - Peça Online</h1>
+                    <p>O Restaurante Sabor Brasileiro oferece uma experiência
+                        gastronômica única, com pratos que celebram a culinária tradicional
+                        brasileira. Visite-nos ou peça online!</p>
+                    </div>
+                    <div class="image-restaurant"></div>
+                </section>
+
+            <section class="gallery-section" id="galeria">
+                <h3>Menu</h3>
+                <div class="gallery start">
+                    <div class="images">
+                        <div class="img-border">
+                            <img src="https://img.freepik.com/fotos-gratis/arranjo-de-comida-brasileira-de-alto-angulo_23-2148725054.jpg?ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                                alt="Foto de uma feijoada">
+                        </div>
+                        <img src="https://kicaldo.com.br/wp-content/uploads/2020/07/feijao-tropeiro-kicaldo-scaled.jpg"
+                            alt="Foto de um feijão tropeiro">
+                        <img src="https://img.freepik.com/fotos-premium/moqueca-baiana-caril-de-peixe-marisco-brasileiro-com-peixe-branco-leite-de-coco-varios-legumes-e-coentro-fresco-em-uma-panela-em-uma-velha-mesa-rustica-vista-vertical-de-cima_268847-3409.jpg?t=st=1725763154~exp=1725763754~hmac=5481bec98990b773a90d5c39601134a08b9da9787a6720542ffd489cd1b93e1b"
+                            alt="Foto de uma moqueca">
+                        <img src="https://img.freepik.com/fotos-gratis/pao-de-queijo-delicioso-assado_23-2149042417.jpg?ga=GA1.1.2115334401.1724982517&semt=ais_hybrid" alt="Foto de um prato de pão de queijo">
+                    </div>
+                    <h3>Nossas especialidades incluem Feijoada, Moqueca, Pão de Queijo, e
+                        muito mais.</h3>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="contact-container">
+                    <div class="contact">
+                        <h4>Escolha seus pratos favoritos e faça seu pedido online agora
+                            mesmo!
+                        </h4>
+                    </div>
+                    <form>
+                        <div class="contact-inputs">
+                            <div class="divs-input">
+                                <label for="name">Nome <span>(mínimo 2 caracteres)</span></label>
+                                <input type="text" placeholder="Insira seu nome" id="last-name" required minlength="2">
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="endereco">Endereço <span>(digite um endereço válido)</span></label>
+                                <input type="text" placeholder="Insira seu e-mail" id="endereco" required>
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="telefone">Endereço <span>(digite um telefone válido)</span></label>
+                                <input type="number" placeholder="Insira seu telefone" id="telefone" required>
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="selecao-pratos">Seleção de Pratos</label>
+                                <select id="selecao-pratos" name="selecao-pratos">
+                                    <option value="">Selecione um prato</option>
+                                    <option value="prato1">Feijoada</option>
+                                    <option value="prato2">Feijão tropeiro</option>
+                                    <option value="prato3">Moqueca</option>
+                                    <option value="prato4">Pão de Queijo</option>
+                                </select>
+                            </div>
+                            
+                            <div class="payment">
+                                <label>Método de Pagamento:</label>
+                                <div class="divs-radio">
+                                    <input type="radio" id="dinheiro" name="metodo-pagamento" value="dinheiro">
+                                    <label for="dinheiro">Dinheiro</label>
+                                </div>
+                                
+                                <div class="divs-radio">
+                                    <input type="radio" id="cartao" name="metodo-pagamento" value="cartao">
+                                    <label for="cartao">Cartão</label>
+                                </div>
+                                
+                                <div class="divs-radio">
+                                    <input type="radio" id="outro" name="metodo-pagamento" value="outro">
+                                    <label for="outro">Outro</label>
+                                </div>
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="textarea" class="label-textarea">Instruções especiais</label>
+                                <textarea id="textarea" required></textarea>
+                            </div>
+                                
+                                <div class="contact-btn">
+                                <button type="submit" class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <p>Termos e Condições - Política de Privacidade ©2024 Todos os direitos reservados por <span>Sabor
+                    Brasileiro</span></p>
+            <p>Design do site por <span>Yuri Leocadio</span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

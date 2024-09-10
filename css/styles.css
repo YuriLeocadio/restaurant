@@ -1,0 +1,259 @@
+body{
+    background-color: #FFF;
+}
+
+.header {
+    width: 100%;
+    padding: 26px 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #9c9a9a69;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name{
+    margin-right: 370px;
+    margin-left: -90px;
+    font-family: Poppins-Bold;
+    font-size: 28px;
+}
+
+.links {
+    color: black;
+    padding: 0 56px;
+    font-size: 22px;
+    font-family: Poppins-Light;
+    transition: color 0.4s ease-in;
+}
+
+.main{
+    width: 100%;
+    padding: 26px 80px;
+}
+
+.about-section{
+    width: 100%;
+    display: flex;
+}
+
+.about-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 750px;
+    padding: 26px;
+}
+
+.about-div h1{
+    font-family: Poppins-Regular;
+    font-size: 65px;
+}
+
+.about-div p{
+    font-family: Poppins-Italic;
+    font-size: 20px;
+    color: #706f6f;
+    font-weight: 500;
+}
+
+.image-restaurant{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://img.freepik.com/fotos-gratis/ambiente-de-restaurante-com-cadeiras-e-mesas-de-madeira-e-linda-vista_181624-9887.jpg?ga=GA1.1.2115334401.1724982517&semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 24px;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.start{
+    align-items: flex-start;
+}
+
+.images{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.images img{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 8px;
+    object-fit: cover;
+    transition: 0.7s;
+}
+
+.images img:hover{
+    transform: scale(1.05);
+}
+
+.img-border{
+    border-bottom: 1px solid #000000;
+}
+
+.gallery-section h3{
+    font-family: Poppins-Medium;
+    font-size: 38px;
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact h4{
+    line-height: 30px;
+    font-size: 28px;
+    font-family: Poppins-Bold;
+}
+
+form {
+    width: 100%;
+    background: #FFF;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divs-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+
+.divs-input label {
+    font-size: 16px;
+    font-family: Poppins-Light;
+    color: #4a4a4b;
+}
+
+.divs-input label span {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #a9a8ac;
+}
+
+.divs-input input,
+.divs-input textarea {
+    border-bottom: 1px solid #9c9a9a69;   
+    height: 50px;
+    font-size: 16px;
+    color: black;
+}
+
+.divs-radio{
+    display: flex;
+    gap: 8px;
+}
+
+#selecao-pratos{
+    border-bottom: 1px solid #9c9a9a69;   
+    height: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.divs-input textarea {
+    height: 160px;
+    border: 1px solid #9c9a9a69; 
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #000000;
+    color: #FFF;
+    font-family: Poppins-Light;
+    padding: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    border-top: 1px solid #9c9a9a69;
+    text-align: center;
+}
+
+.footer-icons{
+    display: flex;
+    margin-left: 16px;
+    gap: 30px;
+}
+
+.fab{
+    color: black;
+    margin-top: 24px;
+    font-size: 28px;
+}
+
+.footer p{
+    max-width: 800px;
+    line-height: 22px;
+}
+
+.footer p span{
+    color: black;
+    font-weight: 600;
+}
